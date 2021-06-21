@@ -8,7 +8,7 @@ By: Carrie Liu
 
 ## Overview
 
-Most big companies are creating original video contents recently. Microsoft wants to open a new movie studio and join the game of making movies. Our team is charged with data analysis on the movie industry. The review period is 2010 - 2019, a decade pre-pandemic. 
+Most big companies are creating original video contents recently. Microsoft wants to launch a new movie studio and join the game of making movies. Our team is charged with data analysis on the movie industry. The review period is 2010 - 2019, a decade pre-pandemic. 
 
 
 
