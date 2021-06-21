@@ -47,11 +47,11 @@ First, we will use TMDb API to retrieve movie details data including: 'id', 'imd
 
 2. Jupyter Notebook: 
 
-    * student.ipynb (https://github.com/carlearn/dsc-mod-1-project-v2-1-online-ds-sp-000/student.ipynb): 
+    * [student.ipynb] (https://github.com/carlearn/dsc-mod-1-project-v2-1-online-ds-sp-000/student.ipynb): 
     
     The complete code 
     
-    * dataset test.ipynb (https://github.com/carlearn/dsc-mod-1-project-v2-1-online-ds-sp-000/dataset_test.ipynb): 
+    * [dataset test.ipynb] (https://github.com/carlearn/dsc-mod-1-project-v2-1-online-ds-sp-000/dataset_test.ipynb): 
     
     Import the datasets provided including: Box Office Mojo, IMDb, Rotten Tomatoes, TheMovieDB.org, and The Numbers. However, there’s a problem with joining datasets from multiple sources, as formats are almost never standardized across the sources. The best solution is to use API to find out whether there’s a unique key that we can join on. Please refer to the blog below for detailed analysis on how to find the right datasets.
     
@@ -63,38 +63,30 @@ First, we will use TMDb API to retrieve movie details data including: 'id', 'imd
 
 4. Blog: 
 
-    * Movie Industry Analysis (https://carlearn.github.io/movie_industry_analysis)
+    * [Movie Industry Analysis] (https://carlearn.github.io/movie_industry_analysis)
     
-    * How to Find the Right Datasets (https://carlearn.github.io/how_to_find_the_right_datasets)
+    * [How to Find the Right Datasets] (https://carlearn.github.io/how_to_find_the_right_datasets)
 
 
 ## Project Summary
 
 ### What types of films are doing best at the box office?
 
-Top genres of movies which make most profit:
+![Top genres of movies which make most profit] (https://github.com/carlearn/dsc-mod-1-project-v2-1-online-ds-sp-000/images/profit_by_genres.png)
 
-https://github.com/carlearn/dsc-mod-1-project-v2-1-online-ds-sp-000/images/profit_by_genres.png
-
-Top genres of movies which are most popular:
-
-https://github.com/carlearn/dsc-mod-1-project-v2-1-online-ds-sp-000/images/popularity_by_genres.png
+![Top genres of movies which are most popular] (https://github.com/carlearn/dsc-mod-1-project-v2-1-online-ds-sp-000/images/popularity_by_genres.png)
 
 
 ### When is the best time to release films?
 
-https://github.com/carlearn/dsc-mod-1-project-v2-1-online-ds-sp-000/images/seasonality_by_genres.png
+![Seasonality of film release] (https://github.com/carlearn/dsc-mod-1-project-v2-1-online-ds-sp-000/images/seasonality_by_genres.png)
 
 
 ### Who are the directors and actors to consider for the new film?
 
-Top 5 Directors:
+![Top 5 Directors] (https://github.com/carlearn/dsc-mod-1-project-v2-1-online-ds-sp-000/images/top_5_directors.png)
 
-https://github.com/carlearn/dsc-mod-1-project-v2-1-online-ds-sp-000/images/top_5_directors.png
-
-Top 5 Actors:
-
-https://github.com/carlearn/dsc-mod-1-project-v2-1-online-ds-sp-000/images/top_5_actors.png
+![Top 5 Actors] (https://github.com/carlearn/dsc-mod-1-project-v2-1-online-ds-sp-000/images/top_5_actors.png)
 
 
 
