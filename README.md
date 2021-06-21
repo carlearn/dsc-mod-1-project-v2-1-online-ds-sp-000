@@ -21,27 +21,29 @@ Most big companies are creating original video contents recently. Microsoft want
 
 
 
-## Approach
+## Methodology
 
-1. Datasource: 
+1. Review Period: 2010 - 2019 (Pre Pandemic)
+
+2. Datasource: 
 
 First, we will use TMDb API to retrieve movie details data including: 'id', 'imdb_id', 'original_title', 'title', 'genres', 'release_date', 'budget', 'revenue', 'popularity', 'vote_average', 'vote_count', and 'runtime'. Next, we will join the IMDb datasets provided to get the crew (including directors and actors) details.
 
 
-2. Clean the Data: 
+3. Clean the Data: 
 * check whether there's any missing data and duplicates
 * convert dtypes
 * split the column of 'genres' to get respective movie category
 * convert money values into million: including columns 'revenue' and 'budget'
 * create a new column 'profit'
 
-3. Exploratory Data Analysis:
+4. Exploratory Data Analysis:
 * use groupby function to get the relationship between genres and profits / popularity
 * use groupby function to analyze the seasonality of respective movie genres
 * use merge to join TMDb and IMDb data frames
 * use matplotlib and seaborn to visualize the data
 
-4. Summarize the recommendations, challenges and next steps
+5. Summarize the recommendations, challenges and next steps
 
 
 
