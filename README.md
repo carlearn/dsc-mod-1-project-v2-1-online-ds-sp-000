@@ -76,7 +76,7 @@ First, we will use TMDb API to retrieve movie details data including: 'id', 'imd
     
     This blog is a fomratted summary of movie industry analysis (i.e. Module 1 project summary).
     
-    * [How to Find the Datasets for Movie Analysis](https://carlearn.github.io/how_to_find_the_datasets_for_movie_analysis)
+    * [How to Find the Datasets for Movie Analysis](https://carlearn.github.io/how_to_find_the_right_datasets)
     
     This blog covers an interesting but important topic regarding joining different dataframes and using APIs.
 
