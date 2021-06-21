@@ -49,7 +49,7 @@ First, we will use TMDb API to retrieve movie details data including: 'id', 'imd
 
 1. Readme: 
 
-    ####[README.md](https://github.com/carlearn/dsc-mod-1-project-v2-1-online-ds-sp-000/blob/master/README.md)
+    * [README.md](https://github.com/carlearn/dsc-mod-1-project-v2-1-online-ds-sp-000/blob/master/README.md)
     
 
 2. Jupyter Notebook: 
@@ -87,25 +87,25 @@ First, we will use TMDb API to retrieve movie details data including: 'id', 'imd
 ### What types of films are doing best at the box office?
 
 Top genres of movies which make most profit:
-![](https://github.com/carlearn/dsc-mod-1-project-v2-1-online-ds-sp-000/images/profit_by_genres.png)
+![](https://github.com/carlearn/dsc-mod-1-project-v2-1-online-ds-sp-000/blob/master/images/profit_by_genres.png)
 
 Top genres of movies which are most popular:
-![](https://github.com/carlearn/dsc-mod-1-project-v2-1-online-ds-sp-000/images/popularity_by_genres.png)
+![](https://github.com/carlearn/dsc-mod-1-project-v2-1-online-ds-sp-000/blob/master/images/popularity_by_genres.png)
 
 
 ### When is the best time to release films?
 
 Seasonality of film release
-![](https://github.com/carlearn/dsc-mod-1-project-v2-1-online-ds-sp-000/images/seasonality_by_genres.png)
+![](https://github.com/carlearn/dsc-mod-1-project-v2-1-online-ds-sp-000/blob/master/images/seasonality_by_genres.png)
 
 
 ### Who are the directors and actors to consider for the new film?
 
 Top 5 Directors
-![](https://github.com/carlearn/dsc-mod-1-project-v2-1-online-ds-sp-000/images/top_5_directors.png)
+![](https://github.com/carlearn/dsc-mod-1-project-v2-1-online-ds-sp-000/blob/master/images/top_5_directors.png)
 
 Top 5 Actors
-![](https://github.com/carlearn/dsc-mod-1-project-v2-1-online-ds-sp-000/images/top_5_actors.png)
+![](https://github.com/carlearn/dsc-mod-1-project-v2-1-online-ds-sp-000/blob/master/images/top_5_actors.png)
 
 
 
