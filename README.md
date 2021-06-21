@@ -5,9 +5,11 @@ For: Microsoft Inc. June 2021
 By: Carrie Liu
 
 
+
 ## Overview
 
 Most big companies are creating original video contents recently. Microsoft wants to open a new movie studio and join the game of making movies. Our team is charged with data analysis on the movie industry. The review period is 2010 - 2019, a decade pre-pandemic. 
+
 
 
 ## Objectives
@@ -16,6 +18,7 @@ Most big companies are creating original video contents recently. Microsoft want
 * When is the best time to release films?
 * Who are the directors and actors to consider for the new film?
 * What are the challenges the new studio will face?
+
 
 
 ## Approach
@@ -41,75 +44,96 @@ First, we will use TMDb API to retrieve movie details data including: 'id', 'imd
 4. Summarize the recommendations, challenges and next steps
 
 
+
 ## Table of Contents
 
-1. Readme: README.md
+1. Readme: 
+
+    ####[README.md](https://github.com/carlearn/dsc-mod-1-project-v2-1-online-ds-sp-000/blob/master/README.md)
+    
 
 2. Jupyter Notebook: 
 
-    * [student.ipynb] (https://github.com/carlearn/dsc-mod-1-project-v2-1-online-ds-sp-000/student.ipynb): 
+    * [student.ipynb](https://github.com/carlearn/dsc-mod-1-project-v2-1-online-ds-sp-000/student.ipynb): 
     
-    The complete code 
+    The complete code include importing data, cleaning data, exploratory data analysis, data visualization and summary.
     
-    * [dataset test.ipynb] (https://github.com/carlearn/dsc-mod-1-project-v2-1-online-ds-sp-000/dataset_test.ipynb): 
+    * [dataset test.ipynb](https://github.com/carlearn/dsc-mod-1-project-v2-1-online-ds-sp-000/dataset_test.ipynb): 
     
     Import the datasets provided including: Box Office Mojo, IMDb, Rotten Tomatoes, TheMovieDB.org, and The Numbers. However, there’s a problem with joining datasets from multiple sources, as formats are almost never standardized across the sources. The best solution is to use API to find out whether there’s a unique key that we can join on. Please refer to the blog below for detailed analysis on how to find the right datasets.
     
+    
 3. Presentation:
 
-    * Presentation slides:
+    * [Presentation slides](https://github.com/carlearn/dsc-mod-1-project-v2-1-online-ds-sp-000/blob/master/Presentation.key)
     
-    * Presentation record:
+    * [Presentation record]
+
 
 4. Blog: 
 
-    * [Movie Industry Analysis] (https://carlearn.github.io/movie_industry_analysis)
+    * [Movie Industry Analysis](https://carlearn.github.io/movie_industry_analysis)
     
-    * [How to Find the Right Datasets] (https://carlearn.github.io/how_to_find_the_right_datasets)
+    This blog is a fomratted summary of movie industry analysis (i.e. Module 1 project summary).
+    
+    * [How to Find the Right Datasets](https://carlearn.github.io/how_to_find_the_right_datasets)
+    
+    This blog covers an interesting but important topic regarding joining different dataframes and using APIs.
+
 
 
 ## Project Summary
 
 ### What types of films are doing best at the box office?
 
-![Top genres of movies which make most profit] (https://github.com/carlearn/dsc-mod-1-project-v2-1-online-ds-sp-000/images/profit_by_genres.png)
+Top genres of movies which make most profit:
+![](https://github.com/carlearn/dsc-mod-1-project-v2-1-online-ds-sp-000/images/profit_by_genres.png)
 
-![Top genres of movies which are most popular] (https://github.com/carlearn/dsc-mod-1-project-v2-1-online-ds-sp-000/images/popularity_by_genres.png)
+Top genres of movies which are most popular:
+![](https://github.com/carlearn/dsc-mod-1-project-v2-1-online-ds-sp-000/images/popularity_by_genres.png)
 
 
 ### When is the best time to release films?
 
-![Seasonality of film release] (https://github.com/carlearn/dsc-mod-1-project-v2-1-online-ds-sp-000/images/seasonality_by_genres.png)
+Seasonality of film release
+![](https://github.com/carlearn/dsc-mod-1-project-v2-1-online-ds-sp-000/images/seasonality_by_genres.png)
 
 
 ### Who are the directors and actors to consider for the new film?
 
-![Top 5 Directors] (https://github.com/carlearn/dsc-mod-1-project-v2-1-online-ds-sp-000/images/top_5_directors.png)
+Top 5 Directors
+![](https://github.com/carlearn/dsc-mod-1-project-v2-1-online-ds-sp-000/images/top_5_directors.png)
 
-![Top 5 Actors] (https://github.com/carlearn/dsc-mod-1-project-v2-1-online-ds-sp-000/images/top_5_actors.png)
+Top 5 Actors
+![](https://github.com/carlearn/dsc-mod-1-project-v2-1-online-ds-sp-000/images/top_5_actors.png)
 
 
 
 ## Recommendation
 
+#### 1. Genres
 The new studio that Microsoft will launch shall produce the movies in genres of Adventure, Animation and Science Fiction from the profitability and popularity perspective.
 
+#### 2. Seasonality
 The best months to release these genres of movies should be: June, November/December (summer and holiday seasons)
 
+#### 3. Best Crew
 The best crew to hire are determined by movie genres. 
+
 
 
 ## Future Work
 
 The analysis is based on the movie data on TMDb and IMDb for the period between 2010 and 2019 (i.e. pre-pandemic). However, the pandemic has changed the movie industry and especially the movie viewing habits of audience. 
 
-1. Data source:
+#### 1. Data source:
 As an alternative to the theater, people tend to view videos via social media and over-the-top media service (i.e. OTT service, such as Netflix, Hulu, Amazon Prime and etc). Therefore, our data sources should be expanded and cover more channels instead of theater box office numbers alone. 
 
-2. Movie genres:
+#### 2. Movie genres:
 Pandemics may have changed people's appetite to the genres of movies. Parents may spend more time with their kids to watch Animation, Family and History movies, while young people staying at home may prefer Action, Thriller and Horror movies to get excitement. We may reconsider which genre of movies is making more profits or getting more popular. Accordingly, we need to reevaluate the crew (including directors and actors) to hire.
 
-3. Release time:
+#### 3. Release time:
 As people tend to watch movies via OTT service, the release time may be more flexible. 
 
+#### 4. Big IP / Series Movies:
 On the other hand, the profits and top crews are largely determined by big IP movies. As a new studio, we should take the impact of big IPs into consideration. 
