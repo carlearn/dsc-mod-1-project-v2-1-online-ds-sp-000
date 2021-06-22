@@ -69,7 +69,7 @@ First, we will use TMDb API to retrieve movie details data including: 'id', 'imd
 
     * [Presentation slides](https://github.com/carlearn/dsc-mod-1-project-v2-1-online-ds-sp-000/blob/master/Presentation.pdf)
     
-    * [Presentation record](https://youtu.be/qJVlapTzwFA)
+    * [Presentation record](https://youtu.be/AeaTEK8CwEI)
 
 
 4. Blog: 
